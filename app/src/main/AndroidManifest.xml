@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.musicstructure">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlaylistActivity"
+            android:label="@string/playlist"
+            android:noHistory="true"/>
+        <activity
+            android:name=".ArtistActivity"
+            android:label="@string/artist"
+            android:noHistory="true"/>
+        <activity
+            android:name=".AlbumActivity"
+            android:label="@string/album"
+            android:noHistory="true"/>
+        <activity
+            android:name=".SongsActivity"
+            android:label="@string/songs"
+            android:noHistory="true"/>
+    </application>
+
+</manifest>

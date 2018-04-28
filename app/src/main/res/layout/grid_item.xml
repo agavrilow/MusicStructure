@@ -1,0 +1,60 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDivider"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_album_pic"
+            android:layout_width="@dimen/album_pic_size_big"
+            android:layout_height="@dimen/album_pic_size_big"
+            tools:src="@drawable/guitar"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/play_circle_margin"
+            android:layout_marginTop="@dimen/play_circle_margin"
+            android:src="@drawable/ic_play_circle_filled" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/album_pic_size_big"
+        android:layout_height="wrap_content"
+        android:background="@color/colorIcons"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_album_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/tv_albumName_margin"
+            android:layout_marginRight="@dimen/tv_albumName_margin"
+            android:layout_marginTop="@dimen/tv_albumName_margin"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorPrimaryText"
+            tools:text="Magic Guitar Album"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_artist_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/tv_albumName_margin"
+            android:layout_marginLeft="@dimen/tv_albumName_margin"
+            android:layout_marginRight="@dimen/tv_albumName_margin"
+            tools:text="Enrico Spanish"
+            android:textColor="@color/colorSecondaryText" />
+
+    </LinearLayout>
+
+</LinearLayout>

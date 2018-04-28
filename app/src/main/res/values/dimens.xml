@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="album_pic_size_big">206dp</dimen>
+    <dimen name="album_pic_size_small">60dp</dimen>
+    <dimen name="play_circle_margin">150dp</dimen>
+    <dimen name="tv_albumName_margin">6dp</dimen>
+    <dimen name="album_pic_small_leftMargin">8dp</dimen>
+    <dimen name="songTitle_rightMargin">16dp</dimen>
+    <dimen name="songTitle_topMargin">8dp</dimen>
+</resources>
